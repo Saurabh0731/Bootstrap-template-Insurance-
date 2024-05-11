@@ -1,0 +1,46 @@
+#hero {
+  background-image: url(/image/hero-cover.jpg);
+  background-size: cover; /* Cover the entire container */
+  height: 100vh; /* Set the height to 100% of the viewport height */
+}
+.btn {
+    border-radius: 25px; /* Adjust the value to control the curvature */
+  }
+  
+
+#card{
+    background-color:#252B42;
+}
+.card{
+    background-color: transparent;
+}
+
+#review{
+    background-color: #8EC2F2;
+    ;
+}
+.cardreview{
+    padding: 25px;
+    background-color: white;
+}
+#gallery{
+    background-color: #252B42;
+}
+#pricing{
+    background-color: #252B42;
+}
+#contact{
+    background-image: url(/image/contact-background.jpg);
+    background-size: cover; /* Cover the entire container */
+    height: 100vh; /* Set the height to 100% of the viewport height */
+}
+.foot{
+    background-color: #252B42;
+}
+.footsection{
+ background-color: 
+#FAFAFA;
+}
+html,body{
+    overflow-x: hidden;
+  }
