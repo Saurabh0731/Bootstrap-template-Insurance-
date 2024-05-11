@@ -1,8 +1,19 @@
 #hero {
-  background-image: url(../image/hero-cover.jpg);
-  background-size: cover; /* Cover the entire container */
-  height: 100vh; /* Set the height to 100% of the viewport height */
-}
+    background-image: url(../image/hero-cover.jpg);
+    background-size: cover; /* Cover the entire container */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    height: 100vh; /* Set the height to 100% of the viewport height */
+  }
+  
+  /* Media query for screens smaller than 768px (typical mobile devices) */
+  @media (max-width: 767.98px) {
+    #hero {
+      background-size: contain; /* Adjust background size for smaller screens */
+      background-position: center; /* Center the background image */
+    }
+  }
+  
+  
 .btn {
     border-radius: 25px; /* Adjust the value to control the curvature */
   }
@@ -32,7 +43,7 @@
 #contact{
     background-image: url(../image/contact-background.jpg);
     background-size: cover; /* Cover the entire container */
-    height: 100vh; /* Set the height to 100% of the viewport height */
+     /* Set the height to 100% of the viewport height */
 }
 .foot{
     background-color: #252B42;
