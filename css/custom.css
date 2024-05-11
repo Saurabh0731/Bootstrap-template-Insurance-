@@ -1,5 +1,5 @@
 #hero {
-  background-image: url(/image/hero-cover.jpg);
+  background-image: url(image/hero-cover.jpg);
   background-size: cover; /* Cover the entire container */
   height: 100vh; /* Set the height to 100% of the viewport height */
 }
@@ -30,7 +30,7 @@
     background-color: #252B42;
 }
 #contact{
-    background-image: url(/image/contact-background.jpg);
+    background-image: url(image/contact-background.jpg);
     background-size: cover; /* Cover the entire container */
     height: 100vh; /* Set the height to 100% of the viewport height */
 }
